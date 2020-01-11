@@ -1,0 +1,1 @@
+docker run -tid --name=SCP -v /Users/marf/tmp/SCP:/home/steam/server_data -v /Users/marf/git/SCP-Secret-Lab-Dedicated-Server-Docker/scripts:/home/steam/server_scripts -v /Users/marf/tmp/SCP_Config:/home/steam/.config/SCP\ Secret\ Laboratory/ crazymarf/scp_secret_laboratory:latest && docker attach SCP
